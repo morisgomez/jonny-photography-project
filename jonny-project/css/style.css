@@ -1,0 +1,64 @@
+@media screen and (min-width: 100px) 
+{
+body {
+    background-color: #777777;
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+color: rgb(255, 255, 255);
+}
+
+.icon-divs {
+    position: relative;
+}
+
+#bunny-icon {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+
+#chat-bubble-icon {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+#brown-folder {
+    position: absolute;
+    bottom: 200px;
+    left: 400px;
+}
+
+#red-folder {
+    position: absolute;
+    top: 200px;
+    right: 300px;
+}
+
+#vanilla-folder {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+
+#blue-folder {
+    position: absolute;
+    bottom: 350px;
+    right: 400px;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+    
+.grow:hover { 
+    transform: scale(1.4); 
+}
+}

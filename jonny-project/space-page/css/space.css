@@ -1,0 +1,7 @@
+@media screen and (min-width: 100px) 
+{
+body {
+    background-color: brown;
+    font-family: monospace;
+}
+}
